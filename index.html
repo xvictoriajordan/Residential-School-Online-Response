@@ -1,17 +1,297 @@
-<!DOCTYPE=html>
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <title>Test</title>
-</head>
-<body>
-<h1>Test</h1>
-<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
-<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-SK&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=500&h=530"></script>
-<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-SK&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_0&export=5&w=500&h=330"></script>
-<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-ON&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_0&export=5&w=500&h=330"></script>
-<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-SK&q=residential+schools,+canada+residential+schools,+canadian+residential+schools,+indian+residential+schools,+aboriginal+residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=500&h=530"></script>
 
-<P>Welcome!</P>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Public Consciousness on Residential Schools through Google Trends</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i><span class="light">Ryan Pickering</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#intro">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#method">Methodology</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#timeline">Timeline</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#regions">Regions</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#semantics">Semantics</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#conclusion">Conclusion</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading" style="font-size:60px">Okay, Google: Residential Schools</h1>
+                        <p class="intro-text">How Google Trends can illuminate who is talking about residential schools, where they are, how they're searching, and why.</p>
+                        <a href="#intro" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Introduction</h2>
+                <p>The Indian residential school system is one of the most heinous parts of Canada's history and is an ongoing injustice for Indigenous people across Canada. While a government apology and ongoing Truth and Reconciliation Commission have begun to heal the wounds that began over one hundred years ago, Canada still has a lot to answer for and reflect upon. When considering the attempted cultural genocide of Canadian Indigenous people throughout the 20th century through residential school, there is never a time to stop considering this. </p>
+<p>This project grew out of a desire to discover how people were thinking about the residential schools in the last several years, with developments like Stephen Harper's apology in 2008 and the ongoing Truth and Reconciliation Commission. I wanted to learn if Canadians were considering the legacy of residential schools or if it was being ignored in the everyday experiences of Canadians. I have not uncovered any objective answers, but what I have discovered is illuminating nonetheless.</p>
+<p>Through analyzing search patterns on Google Trends about residential schools, I believe I have uncovered some interesting patterns and trends in how people use Google, the most prevalent search engine of the Internet, to look for knowledge about residential schools. By looking at when searching is going on, where it is happening, and how residential schools are being searched, I believe that I have discovered who is searching for residential schools primarily and why. Trends that seem both obvious and unusual are viewable, and indeed there are some trends that I am unable to understand, and hopefully another historian can discover further patterns and trends about residential schools and the general population.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="method" class="content-section text-left">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2" style="background-color:#4C4C4C; padding-top: 30px; padding-left: 25px; padding-right: 25px; Padding-bottom: 30px; border-radius: 20px">
+                <h2>Methodology</h2>
+                <p>In beginning to look at the public consciousness of Canada regarding the residential school system, I took to examining Google Trends to see how people search for residential schools. I mainly used the feature that compares search terms over a period of time, as well as comparing frequencies of terms over the provinces and major cities of Canada.</p>
+<p>Google Trends' techniques used to create the numbers that make up their visualizations are complicated, and they do not allow the user to see raw numbers. Instead, their Help section states that "Google Trends analyzes a percentage of Google web searches to determine how many searches have been done for the terms you've entered compared to the total number of Google searches done during that time." <a href="https://support.google.com/trends/answer/4355213?hl=en">(Google, 2015)</a> Additionally, how they normalize their data so that it is usable across large areas is they divide it by the number of total searches. Despite unequal populations in provinces, search frequencies generally mean the same thing due to their being a percentage of searches. However, what is represented as 100 on one of the figures below does not mean that searches on residential schools were the only searches done on Google for that month. Instead, whatever time period or region has the highest relative amount of searches on a topic is represented as 100, and other regions or time periods are represented relative to that 100.</p>
+<p>With all of that said, at various points in the site I will allude to these normalization strategies Google uses in order to remind the reader that these values are all relative and do not reflect objective numbers at this point. This has become a major part of this project - all of these numbers are relative, and thus a great deal of subjective interpretation must be used on these figures to root them in some sort of reality. Because of this, I have taken the liberty of interpreting these figures and numbers according to my subjective opinions and experiences. I do not believe that this takes away from the material, but instead allows for other historians to use this material and use other sources to illuminate aspects I may gloss over. History is oftentimes more of an art than a science, and my methodology in subjective interpretation reflects this.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TImeline Section -->
+    <section id="timeline" class="container content-section text-left">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Timeline</h2>
+                    <P>One of the most important aspects of analyzing the public consciousness on residential schools is to see how that consciousness plays out over time. Some very interesting things reveal themselves when trends are examined over a longer period of time. With this information, we can roughly gauge who is searching for residential schools the most, and what events have triggered this.</P><br>
+  <center>
+    <div style="width:600px; background-color:white">
+        <script type="text/javascript" style="text-align:center" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=600&h=330">
+        </script>
+    </div>
+  </center>
+  <br>
+  <p>The first thing that needs to be discussed is who is searching for residential schools: with close examination of this graph and some basic inference, we can discover that fairly easily. Looking at this timeline, one can see there is a general fluctuation in search patterns from 2004 to the present: there may be a rise in discussion of residential schools for the better part of a year, but there are numerous dips within each year. While the search activity from year to year can differ, these periods of search inactivity persist.</p>
+  <p>If one mouses over the lower portions of the graph, the months they represent are July, August, January and December. Furthermore, the dips in July and August are significantly larger than those during January and December. These dates correspond to the Canadian public school schedule, with two months off in the summer (July and August) and several weeks off for Christmas and New Years (December and January). It is clear to see that the people who are searching the most for residential schools on Google are students!</p>
+  <p>What can we draw from this then, on a historical basis? We can assume that student assignments based around residential schools are part of the curriculum and therefore not entirely dependent on political events, such as Harper's apology or the TRC (Truth and Reconciliation Commission). While Harper's apology does make a spike in search frequency, if one looks to June of 2008, or discussion of compensation, if one looks at November of 2004 or 2005, searches are still made during the year on a schedule that is largely consistent with the school year. This latter discussion of compensation may not be linked to the search frequencies in these periods at all: instead, it may be the time of year that teachers generally introduce discussion of residential schools. This would be consistent with the general pattern of discussion on residential schools peaking in November and March or April respectively, both of which are in the middle of each half of the school year.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regions Section -->
+    <section id="regions" class="content-section text-left">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="background-color:#4C4C4C; padding-top: 30px; padding-left: 25px; padding-right: 25px; Padding-bottom: 30px; border-radius: 20px">
+                <h2>Regions</h2>
+                <p>This next section will discuss where in particular people are searching for information of residential schools, as opposed to when and who. In the previous section, we discovered from patterns in the timeline that the people who were engaging most with residential schools through Google searches were students. Where are these students searching most frequently for information on residential schools?</p>
+
+    <center>
+        <div style="width:500px; height:400px; background-color:white">
+            <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=500&h=400">
+            </script>
+        </div>
+<br>
+        <div style="width:500px; height:400px; background-color:white">
+            <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_0&export=5&w=500&h=400">
+            </script>
+        </div>        
+    </center>
+<br>
+<p>In order for us to understand what these numbers mean, we must contextualize them. In Google Trends, search numbers are normalized against the total number of searches in a given time and area. Thus, these figures don't show that the Northwest Territories have the largest population searching about residential schools in Canada, but rather that there are less people making Google searches about other topics. Considering the population of the Northwest Territories in 2011 was 41,462, while the population of the second most represented province, Saskatchewan, in 2011 was 1,033,381, clearly one can see that Google's algorithms have altered the visualization by their method of conceiving numbers. The same kind of skewed visualization is seen in the figures below, as well.</p>
+  <center>
+  <div style="width:500px; height:420px; background-color:white">
+    <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_1&export=5&w=500&h=420">
+    </script></div>
+<br>
+  <div style="width:500px; height:400px; background-color:white">
+    <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_1&export=5&w=500&h=400">
+    </script>
+    </div>
+    </center>
+    <br>
+  <p>So, in order to discover where discourse on residential schools has been going on the most, we have to turn to a representation of discussion in each province over time. Below, I have included an animated GIF showing a progression of residential school's search frequency in each province over time. It shows that, for the most part, discussion is centred around the prairies and the West Coast, is nominally discussed in central Canada, and is ignored almost entirely in the East.</p>
+  <center><img src="http://cdn.makeagif.com/media/4-04-2015/6FYoG7.gif" alt="Changes in search frequencies for residential schools, 2004 to present. Made with Google Trends and makeagif.com"></center><br>
+  <p> The most obvious element of this visualization is its incongruence with the line graph, also provided by Google, but there is an explanation for this. The shade of each province is relative to the others over the period of time, and Google normalizes their numbers in a way that can convolute information a bit. Thus, this picture is being used to show diversions in particular provinces from the search patterns of the majority of provinces. With that said, the emphasis on searching about residential schools in the prairie provinces can also be seen in another timeline, this one comparing Alberta, Saskatchewan, Manitoba, British Columbia, and Ontario.</p>
+<center>
+    <div style="width:650px; height:330px; background-color:white">
+        <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=residential+schools&geo=CA-ON,+CA-SK,+CA-AB,+CA-MB,+CA-BC&cmpt=geo&tz&tz&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=650&h=330">
+            
+        </script></div></center><br>
+<p>After 2007, the search frequencies of Alberta and Saskatchewan, and to a lesser degree at points, Manitoba, are much higher than those of British Columbia and Ontario. Why is that? One answer could be the differences in Indigenous populations in each province. While Ontario has 441,395 Indigenous people out of a total population of 12,651,795, 3.4% of the total population, Saskatchewan has 121,465 out of a total population of 1,008,760,  16% of the population. Similarly high, Manitoba's Indigenous population is 15.8% of the total population, and Alberta's is 5.8% - still low but considerably larger than that of Ontario.</p>
+ <p>Seeing as Ontario's Indigenous population is the relative lowest, despite being the highest population province in general, it makes sense that the prairies, with a much higher Indigenous population relatively, would have more search frequency than central Canada. Similarly, as mentioned earlier towards the Northwest Territories, 50.3% of people in the area are Indigenous, either First Nations, Metis, or Inuit, which explains the higher frequencies of search in areas where there are not as many people to search things in general.</p>
+<p>Thus the general trend we are seeing here is showing that along with being generally attributed to students, there is an emphasis on searching about residential schools in provinces with higher Indigenous populations relative to the total populations. This trend is also replicated in cities within the prairie provinces, as illustrated by the figures below.</p>
+<center>
+<div style="width:500px; height:200px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-SK&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_0&export=5&w=500&h=330"></script>
+</div>
+<br>
+<div style="width:500px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA-ON&q=residential+schools&cmpt=q&tz&content=1&cid=GEO_TABLE_0_0&export=5&w=500&h=330"></script></div></center><br>
+<p>In Saskatchewan, the city with the highest search frequency out of the three that have enough frequency to appear is Prince Albert, as opposed to Regina and Saskatoon. While Regina and Saskatoon had, in 2011, populations of 193,100 and 222,189 respectively, Prince Albert only had 35,129. However, the percentage of the population in Prince Albert who are Indigenous, either First Nation or Metis, is 41.5%, compared to 9.9% and 9.7% respectively.</p>
+<p>A similar pattern emerges in Ontario, despite it's low Indigenous population relative to the total population. In Thunder Bay and Greater Sudbury, the Indigenous populations account for 8.2% and 6.9% of the total populations, high for Ontario (Peterborough is an outlier in this case, with only 2.3% of the total population being Indigenous.) This is juxtaposed with the low Indigeous populations in more southern Ontario cities, such as London with 1.9% of the total population, and St. Catharines, with 1.6%.</p> 
+            </div>
+        </div>
+    </section>
+    
+   <!-- Semantics Section -->
+    <section id="semantics" class="content-section text-left">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Semantics</h2>
+                    <P>In the last two sections, we have looked at who is looking up material on residential schools, and have ascertained an idea of where and why they are doing so. This section will attempt to explore how they are doing it, by looking at semantic choices in searches across Canada. One can remember the timeline we used in the last section concerning search habits across several provinces. To further that discussion, let's look at some different searches possibly being made across Canada that pertain to residential schools.</P>
+<p>Aside from the baseline "residential schools" term, I am going to look at four terms that are different ways of saying the same thing: canada residential schools, canadian residential schools, indian residential schools, and aboriginal residential schools. When we look at these terms on Google Trends, some interesting patterns appear that are a bit unexpected.</p>
+<center>
+<div style="width:500px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=canada+residential+schools,+canadian+residential+schools,+indian+residential+schools,+aboriginal+residential+schools&cmpt=q&tz&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
+</div>
+</center>
+<br>
+<p>This line graph doesn't tell us anything too revolutionary - at least, not what I plan to illuminate later. While there is a clear distinction on usage of each of these terms, it is fair to generalize that all of them are used in some way or another. We can then accept that in whatever way these terms appear subsequently, they are legitimate.</p>
+<p>When we check to see what the dispersion of these terms across Canada is, we get some very unusual patterns for which there are no obvious ways to explain.</p>
+<center>
+<div style="width:600px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=canada+residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=600&h=330"></script>
+</div>
+<br>
+<div style="width:600px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=canadian+residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=600&h=330"></script>
+</div>
+<br>
+<div style="width:600px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=indian+residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=600&h=330"></script>
+</div>
+<br>
+<div style="width:600px; height:330px; background-color:white">
+<script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&geo=CA&q=aboriginal+residential+schools&cmpt=q&tz&content=1&cid=GEO_MAP_0_0&export=5&w=600&h=330"></script>
+</div>
+</center>
+<br>
+<p>Looking at those terms initially, the assumption could have been that these different terms were arbitrary and meaningless, and could be equal across Canada. But these figures show that to be false: there is a regional divide between Saskatchewan and Manitoba, and the rest of the provinces in western and central Canada.</p>
+<p>In Saskatchewan and Manitoba, the terms most used, aside from the simple residential schools, are are "indian residential schools" and "canada residential schools." In Ontario, Alberta, and British Columbia, the most frequent terms are "canadian residential schools," and to a lesser degree, "aboriginal residential schools." That last term has a frequency of 100 in Manitoba, which is interesting. This is a lot of variance in the terms across the country... what could this possibly mean?</p>
+<p>There are many possibilities for what these semantic differences might signify. This project will not examine outside factors on these and instead will speculate in order to allow other historians or sociologists to explore this.</p>
+<p>There are two possibilities I have conceived of for the difference between "indian residential schools" and "aboriginal residential schools." One, the use of the term Indian might represent the presence of systemic racism in Saskatchewan, as opposed to the more progressive and appropriate term Aboriginals being used in other parts of the country. However, that explanation disregards some important factors. For example, if systemic racism was affecting search history in one of the prairie provinces like this, it does not make sense that the trend would not be reflected in Manitoba as well, where the capital city was called out by Macleans magazine as <a href="http://www.macleans.ca/news/canada/welcome-to-winnipeg-where-canadas-racism-problem-is-at-its-worst/">the most racist city in the country</a>. </p>
+<p>Instead, perhaps an explanation could be that education focuses on the legacy and history of residential schools more in Saskatchewan. It is true that the official title of the residential schools is Indian Residential Schools - and there is no such thing as an Aboriginal residential school. Thus, one could see an overcompensation of politically correct discussion in other provinces, assuming the term Indian is inappropriate in all contexts, even when referring to past institutions like the residential schools. While this does not give any real answers, highlighting these strange semantic differences illuminates possibilities for further historical scholarship on residential schools and public consciousness.
+<p>One idea I have towards the divide between "canada residential schools" and "canadian residential schools," additionally, is a conception of the nature of residential schools. Contrary to the idea of Saskatchewan using proper terminology as just discussed, the use of the word Canadian in Ontario, Alberta and British Columbia could represent a fuller engagement the provinces have with discourses of residential schools and their legacy. The use of the word Canadian can signify a recognition of the fact that these schools are Canadian, and are an essential part of our national story. Conversely, in Saskatchewan and Manitoba, just the use of Canada while searching for residential schools could represent instead a lack of recognition that these schools were a venture supported and run by the Canadian government. They might see them as something that happened <i>in Canada</i>, as opposed to something <i>Canadian</i>. 
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- Conclusion -->
+    <section id="conclusion" class="container content-section text-left">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2" style="background-color:#4C4C4C; padding-top: 30px; padding-left: 25px; padding-right: 25px; Padding-bottom: 30px; border-radius: 20px">
+                <h2>Conclusion</h2>
+                <p>All of the sections above have attempted to explain patterns and trends that are fairly self-evident in Google Trends concerning residential schools. In summation, what we have discovered is:</p>
+<ol style="font-size:16px">
+<li>Due to the dispersion of searches across a year, it is mostly students who are searching about residential schools, most likely for school assignments.</li>
+<li>There are more searches for residential schools in areas with higher Indigenous populations. This is true across provinces and across cities.</li>
+<li>Semantic differences in search terms can possibly be accounted for through different conceptions of residential schools by province, most likely due to the educational system teaching accuracy versus political correctness.</li>
+</ol>
+<p>These discoveries are not neutral: they are based in subjectivity and rooted in relative figures. But they do form a framework of thought on which historians can begin to further study historical consciousness of Canadians towards residential schools. </p>
+<p>What does show through here, though, is that Canadians need to engage with discussions around residential schools more than they do now, especially outside of the prairies, where discourse around Indigenous issues is developing with the large populations of Indigenous people there. Discourse cannot be limited to students Googling facts for assignments and those who live in areas with high percentages of Indigenous people residing. Canadians who live in central and eastern Canada have to consider their own historical complicity in the residential school system, despite the prevalence of the western provinces in being aware of this sad history.
+</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Ryan Pickering 2015</p>
+            <p>Thank you for reading my work. If you would like to contact me, feel free to using any of the below methods.</p><br>
+<ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/rapickering" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="http://ryanpickering.github.io/researchfellowship2015" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GRF Blog</span></a>
+                    </li>
+                    <li>
+                        <a href="mailto:RyanPickering@carleton.ca" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Email</span></a>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>
