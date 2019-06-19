@@ -46,4 +46,8 @@ Based on the most current searches, it can be argued that Pickering is correct a
 What I find more interesting is the comparison of related topics and queries. This is where real differences being to appear. Filtering the words by rising categories means that it is showing the topics and queries that had big jumps in the popularity of the search. The work breakout means that before this time there were little or no related searches or queries and now there are a lot. We will be focusing on the top 5 for both Pickering's timeline and mine.
 
 *Pickering's Timeline Related Topics and Queries*
-![alt text](
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/pickering%20timeline%20topics.jpeg?raw=true)
+
+*My Timeline Related Topics and Queries*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/victoria%20timeline%20topics.jpeg?raw=true)
+
