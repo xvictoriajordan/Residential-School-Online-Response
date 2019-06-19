@@ -54,3 +54,13 @@ What I find more interesting is the comparison of related topics and queries. Th
 Pickering's trends do point to confirming his assumption that Harper's apology and the TRC did play a role in a spike regarding the search for residential schools. The apology appears both in topics and queries making it seem to be one of the more popular related searches. The queries on the other hand appear to be more general about residential schools and many asking what they were.  
 
 But examining the current trends allows us to see what topics have been more recently searched in relation to residential schools. In terms of topics, as suspected, Justin Trudeau is number one, possibly because he did place Indigenous issues high up on his agenda while serving as Prime Minister. Another interesting topic and query is Chanie Wenjack, Secret Path and Gordon Downie. These three are related as Gordon Downie brought the story of Chanie Wenjack back to life in a poem book called Secert Path. Orange Shirt Day is another new one. The trend of wearing an orange shirt on September 30th started in 2013 in hopes to create more awareness around residential schools. This could also be another reason why the term is searched for so much in September.
+
+## Regions
+
+In this section, I agree with Pickering's assumption that the reason that the three top provinces (Saskatchewan, Manitoba and Alberta) to search residential schools is most probably because they have the highest amount of Indigenous people in those provinces. Even in my more recent timeline, the top three provinces are still the top three in the exact same order. 
+
+*Pickering's Timeline Regions*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/pickering%20regions.jpeg?raw=true)
+
+*My Timeline Regions*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/victoria%20regions.jpeg?raw=true)
