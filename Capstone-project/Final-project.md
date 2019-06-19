@@ -31,4 +31,7 @@ One of the goals is to compare the conclusion I make with the one Pickering made
 
 ## Timeline
 
-*Pickering's Timeline*
+*Pickering's Timeline (January 2004 - April 2015)*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/Pickering%20Data%20timeline.jpeg?raw=true "Pickering Timeline")
+
+
