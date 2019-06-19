@@ -28,3 +28,7 @@ I will also be eliminating the sematics seciton. While I did think in his presen
 ### Comapring Conclusions
 
 One of the goals is to compare the conclusion I make with the one Pickering made. I think that by looking at the topics and queries it will strenghten both conclusions and maybe point out some trends that have occured since the creation of his project.
+
+## Timeline
+
+*Pickering's Timeline*
