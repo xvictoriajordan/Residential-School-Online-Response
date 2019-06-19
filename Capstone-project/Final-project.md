@@ -64,3 +64,11 @@ In this section, I agree with Pickering's assumption that the reason that the th
 
 *My Timeline Regions*
 ![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/victoria%20regions.jpeg?raw=true)
+
+Unlike the timeline case, when looking at the related queries (only queries are available when comparing the three provinces) the queries are relativelty similar.
+
+*Pickering's Timeline Regions Related Queries (Saskatchewan, Manitoba, Alberta)*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/pickering%20regions%20queries.png?raw=true)
+
+*My Timeline Regions Related Queries (Saskatchewan, Manitoba, Alberta)*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/victoria%20regions%20queries.png?raw=true)
