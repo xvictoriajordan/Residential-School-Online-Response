@@ -38,4 +38,12 @@ Pickering's analysis of this period led him to the conclusion that it was mostly
 
 He also mentions that certain political events might have also spiked the search for residential schools. This includes former Prime Minister Stephen Harper's apology or the Truth and Reconciliation Commission (TRC). But even with that he concludes that these events fall generally still fall relative to the school year making it difficult to tell if there was even a spike at all.
 
-*My Timeline (April 2015 - Present)
+*My Timeline (April 2015 - Present)*
+![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/Capstone-project/My%20timeline.jpeg?raw=true "My Timeline")
+
+Based on the most current searches, it can be argued that Pickering is correct and the trend does continue. There is a constant spike in searches at the start of the school year (around September in particular) and the search hits dip down when school is on Christmas and summer holiday. 
+
+What I find more interesting is the comparison of related topics and queries. This is where real differences being to appear. Filtering the words by rising categories means that it is showing the topics and queries that had big jumps in the popularity of the search. The work breakout means that before this time there were little or no related searches or queries and now there are a lot. We will be focusing on the top 5 for both Pickering's timeline and mine.
+
+*Pickering's Timeline Related Topics and Queries*
+![alt text](
