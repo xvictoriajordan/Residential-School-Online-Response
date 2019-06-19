@@ -72,3 +72,7 @@ Unlike the timeline case, when looking at the related queries (only queries are 
 
 *My Timeline Regions Related Queries (Saskatchewan, Manitoba, Alberta)*
 ![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/victoria%20regions%20queries.png?raw=true)
+
+A major trend in both timelines and throughout all the provinces is residential schools and Canada or the province in which the search is being done. Pickering's section on regions focused on which regions were producing the most searches and why. As perviously mentioned, the more recent data seems to align itself with his original explanation that provinces with higher Indigenous populations have higher searches. The related queries produce very similar results proving that for the most part people are searching residential schools in a more general sense. Also, Pickering's timeline theory also hold up when looking at the regions, searches for residential schools dies down in the summer while being very active durnig the school year.
+
+# Conclusion
