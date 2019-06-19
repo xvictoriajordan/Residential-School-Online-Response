@@ -7,7 +7,7 @@
 
 ## Introduction
 
-For my Capstone Project I decided to extend the work of Ryan Pickering’s project Ok Google: Residential Schools. His introduction is as follows.
+For my Capstone Project I decided to extend the work of Ryan Pickering’s project [Ok Google: Residential Schools](https://ryanpickering.github.io/Residential-School-Online-Response/#page-top). His introduction is as follows.
 
 >The Indian residential school system is one of the most heinous parts of Canada’s history and is an ongoing injustice for Indigenous people across Canada. While a government apology and ongoing Truth and Reconciliation Commission have begun to heal the wounds that began over one hundred years ago, Canada still has a lot to answer for and reflect upon. When considering the attempted cultural genocide of Canadian Indigenous people throughout the 20th century through residential school, there is never a time to stop considering this.
 
