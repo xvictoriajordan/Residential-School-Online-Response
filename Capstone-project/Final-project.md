@@ -34,4 +34,8 @@ One of the goals is to compare the conclusion I make with the one Pickering made
 *Pickering's Timeline (January 2004 - April 2015)*
 ![alt text](https://github.com/xvictoriajordan/Residential-School-Online-Response/blob/master/Pickering%20Data%20timeline.jpeg?raw=true "Pickering Timeline")
 
+Pickering's analysis of this period led him to the conclusion that it was mostly students that were researching about residential schools since many of the peak points in the graph are during the school year and numbers are much lower during school's summer and Christmas holiday. 
 
+He also mentions that certain political events might have also spiked the search for residential schools. This includes former Prime Minister Stephen Harper's apology or the Truth and Reconciliation Commission (TRC). But even with that he concludes that these events fall generally still fall relative to the school year making it difficult to tell if there was even a spike at all.
+
+*My Timeline (April 2015 - Present)
